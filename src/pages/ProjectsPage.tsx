@@ -1,6 +1,6 @@
 import React from "react";
 
-const Projects: React.FC = () => {
+const ProjectsPage: React.FC = () => {
     return (
         <>
             <h1>Projects</h1>
@@ -8,4 +8,4 @@ const Projects: React.FC = () => {
     );
 };
 
-export default Projects;
+export default ProjectsPage;

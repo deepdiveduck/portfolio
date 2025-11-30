@@ -2,7 +2,7 @@ import React from "react";
 import Experience from "../components/Experience";
 import Skills from "../components/Skills";
 
-const About: React.FC = () => {
+const AboutPage: React.FC = () => {
     return (
         <>
             <Experience />
@@ -11,4 +11,4 @@ const About: React.FC = () => {
     );
 };
 
-export default About;
+export default AboutPage;

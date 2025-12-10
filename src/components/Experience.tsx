@@ -7,7 +7,7 @@ const Experience: React.FC = () => {
         <section>
             <div className="container py-10">
                 <div className="flex flex-col gap-6">
-                    <h2 className="font-bold text-4xl">Experience</h2>
+                    <h1 className="font-bold text-4xl">Experience</h1>
                     <ul className="flex flex-col gap-5 lg:gap-8">
                         {experience.map((experience, index) => (
                             <ExperienceCard

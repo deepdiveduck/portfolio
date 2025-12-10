@@ -9,14 +9,13 @@ const Hero: React.FC = () => {
                     <div className="basis-1/2">
                         <h1 className="text-3xl lg:text-5xl">Hi, I'm Tina!</h1>
                         <h2 className="text-2xl lg:text-4xl mt-3">
-                            A software developer with +3 years of experience.
+                            A software engineer with +3 years of experience.
                         </h2>
                         <p className="text-base lg:text-xl mt-8">
-                            I’m a software engineer motivated by problem-solving
-                            and continuous learning. I strive to build
-                            applications that are dependable and user-friendly,
-                            gaining experience and insight from every challenge
-                            I can get my hands on.
+                            I am motivated by problem-solving and continuous
+                            learning. I strive to build applications that are
+                            dependable and user-friendly, gaining experience and
+                            insight from every challenge I can get my hands on.
                         </p>
                         <p className="text-base lg:text-xl mt-8">
                             In my free time I like to go for a run, go

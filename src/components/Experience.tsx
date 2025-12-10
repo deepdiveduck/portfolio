@@ -13,7 +13,8 @@ const Experience: React.FC = () => {
                             <ExperienceCard
                                 key={index}
                                 company={experience.company}
-                                duration={experience.duration}
+                                startDate={experience.startDate}
+                                endDate={experience.endDate}
                                 image={experience.image}
                                 location={experience.location}
                                 title={experience.title}

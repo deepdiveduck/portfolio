@@ -1,10 +1,12 @@
 import React from "react";
+import { formatDateRange } from "../utils/dateUtils";
 
 interface ExperienceCardProps {
     image: string;
     company: string;
     title: string;
-    duration: string;
+    startDate: string;
+    endDate?: string;
     location: string;
 }
 
@@ -12,9 +14,11 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
     image,
     company,
     title,
-    duration,
+    startDate,
+    endDate,
     location,
 }) => {
+    const duration = formatDateRange(startDate, endDate);
     return (
         <li className="border border-indigo-500 rounded-xl shadow-md shadow-indigo-500/30 bg-indigo-100/50 p-6 lg:p-8">
             <div className="flex flex-col sm:flex-row gap-6 lg:gap-8">

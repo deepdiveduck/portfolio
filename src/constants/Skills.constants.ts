@@ -1,5 +1,6 @@
 export const skills = [
     { skill: "CSS", image: "/portfolio/images/css-3.png" },
+    { skill: "Django", image: "/portfolio/images/django.png" },
     { skill: "Figma", image: "/portfolio/images/figma.png" },
     { skill: "GitHub", image: "/portfolio/images/github.png" },
     { skill: "HTML", image: "/portfolio/images/html-5.png" },
@@ -7,6 +8,7 @@ export const skills = [
     { skill: "jQuery", image: "/portfolio/images/jQuery.png" },
     { skill: "Node.js", image: "/portfolio/images/nodejs.svg" },
     { skill: "php", image: "/portfolio/images/php.png" },
+    { skill: "Python", image: "/portfolio/images/python.png" },
     { skill: "React", image: "/portfolio/images/react.png" },
     { skill: "Sass", image: "/portfolio/images/sass.svg" },
     { skill: "Sketch", image: "/portfolio/images/sketch.png" },

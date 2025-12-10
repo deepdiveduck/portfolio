@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
                     <div className="basis-1/2">
                         <h1 className="text-3xl lg:text-5xl">Hi, I'm Tina!</h1>
                         <h2 className="text-2xl lg:text-4xl mt-5">
-                            A software developer with 2 years of experience.
+                            A software developer with +3 years of experience.
                         </h2>
                         <p className="text-base lg:text-xl mt-10">
                             I'm interested in solving problems in the most
